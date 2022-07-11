@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="PTTCustomTheme2" parent="Theme.AppCompat.NoActionBar" tools:ignore="NewApi">
+        <item name="android:windowNoTitle"> true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorBackground">@color/status_bar_color</item>
+    </style>
+
+    <style name="myDialog" parent="ThemeOverlay.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackground">@color/dialog_color</item>
+    </style>
+
+
+</resources>
